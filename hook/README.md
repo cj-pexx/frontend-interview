@@ -17,7 +17,7 @@ Your task is to implement the custom `useArray` React hook and use it within a R
 
 ### Example Usage
 
-```javascript
+```TypeScript
 function ExampleComponent() {
     const { value, push, removeByIndex } = useArray([1, 2, 3]);
 
@@ -34,3 +34,12 @@ function ExampleComponent() {
         </div>
     );
 }
+```
+
+### Run
+
+```bash
+pnpm install
+
+pnpm dev
+```
