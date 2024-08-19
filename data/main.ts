@@ -18,9 +18,6 @@ Write a function that outputs the current weather information of the current cit
 
 */
 
-// https://restapi.amap.com/v3/ip?ip=${ipcode}&key=2c017fc4c0b5629c24d5167a291cd1d3
-// https://restapi.amap.com/v3/weather/weatherInfo?city=${citycode}&key=2c017fc4c0b5629c24d5167a291cd1d3
-
 const providers = ["https://api.ipify.org", "https://ipinfo.io/ip"]
 
 
